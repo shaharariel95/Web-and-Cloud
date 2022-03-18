@@ -1,12 +1,108 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header, main, footer, nav, aside, section {
+header,main,footer,nav,aside,section {
     display: block;
 }
 
 header {
+    background :rgb(0, 154, 243);
     width: 100%;
+}
+/* Section 1 */
+
+/* logo backround */
+#elipse {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 25px;
+    top: 25px;
+
+    background: #458FF6;
+}
+/* logo letter */
+#m {
+    position: absolute;
+left: 2.38%;
+right: 96.56%;
+top: 1%;
+bottom: 97.93%;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+}
+
+/* logo full name */
+#manuella {
+    position: absolute;
+left: 4.88%;
+right: 88.44%;
+top: 1.03%;
+bottom: 97.97%;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: #233348;
+
+mix-blend-mode: normal;
+}
+/* section 2 */
+
+/* Navigation list */
+
+nav {
+    position: absolute;
+    width: 844px;
+    height: 1034px;
+    left: 25px;
+    top: 75px;
+}
+
+/* illustration */
+
+#illu {
+    position: absolute;
+left: 3.12%;
+right: 74.75%;
+top: 6.73%;
+bottom: 91.5%;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 53px;
+
+/* identical to box height */
+
+/* 1f1534-hyfen */
+color: #1F1534;
+
+
+}
+
+/* Group */
+
+#group {
+    position: absolute;
+left: 1.56%;
+right: 95.88%;
+top: 6.57%;
+bottom: 92.07%;
+
+opacity: 0.3;
 }
