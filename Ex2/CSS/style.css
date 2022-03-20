@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 header,main,footer,nav,aside,section {
@@ -22,6 +23,7 @@ header {
     top: 25px;
     border-radius: 45%;
     background: #458FF6;
+    
 }
 /* logo letter */
 #m {
@@ -108,7 +110,7 @@ bottom: 75.2%;
 
 #illu2 {
    position: absolute;  
-    left: 3.12%;
+    left: 25px;
     
     top: 62%;
     bottom: 91.5%;
@@ -130,7 +132,7 @@ color: #1F1534;
 
 #para{
     position: absolute;
-left: 3.12%;
+left: 25px;
 right: 35.12%;
 top: 69%;
 bottom: 67.37%;
@@ -212,6 +214,15 @@ top: 1000px;
 
 }
 
+#h{
+    
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+}
+
 #para2{
     
     margin-top: 4%;
@@ -226,7 +237,7 @@ top: 1000px;
 }
 
 #rect2 {
-    margin-top: 2%;
+    margin-top: 5%;
     position: absolute;
 width: 56px;
 height: 2px;
