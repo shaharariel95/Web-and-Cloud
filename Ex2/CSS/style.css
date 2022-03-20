@@ -20,15 +20,15 @@ header {
     height: 41px;
     left: 25px;
     top: 25px;
-
+    border-radius: 45%;
     background: #458FF6;
 }
 /* logo letter */
 #m {
     position: absolute;
-left: 2.38%;
-right: 96.56%;
-top: 1%;
+left: 15.00%;
+
+top: 2%;
 bottom: 97.93%;
 
 font-family: 'Mulish';
@@ -45,9 +45,9 @@ mix-blend-mode: normal;
 /* logo full name */
 #manuella {
     position: absolute;
-left: 4.88%;
+left: 5.88%;
 right: 88.44%;
-top: 1.03%;
+top: 2.53%;
 bottom: 97.97%;
 
 font-family: 'Mulish';
@@ -74,18 +74,18 @@ nav {
 
 /* illustration */
 
-#illu {
+#illu1 {
     position: absolute;
-left: 3.12%;
-right: 74.75%;
-top: 6.73%;
-bottom: 91.5%;
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 42px;
-line-height: 53px;
+    left: 3.12%;
+    right: 74.75%;
+    top: 13%;
+    bottom: 91.5%;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 53px;
 
 /* identical to box height */
 
@@ -95,14 +95,251 @@ color: #1F1534;
 
 }
 
-/* Group */
-
-#group {
+#main_img{
     position: absolute;
 left: 1.56%;
-right: 95.88%;
-top: 6.57%;
-bottom: 92.07%;
+right: 64.03%;
+top: 25%;
+bottom: 75.2%;
 
-opacity: 0.3;
+
+}
+
+
+#illu2 {
+   position: absolute;  
+    left: 3.12%;
+    
+    top: 62%;
+    bottom: 91.5%;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 53px;
+
+/* identical to box height */
+
+/* 1f1534-hyfen */
+color: #1F1534;
+
+
+
+}
+
+#para{
+    position: absolute;
+left: 3.12%;
+right: 35.12%;
+top: 69%;
+bottom: 67.37%;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 32px;
+
+/* or 152% */
+
+color: #7D7987;
+
+mix-blend-mode: normal;
+}
+
+#btn{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 25px;
+    top: 999px;
+
+
+}
+
+#rect1{
+    
+position: absolute;
+left: 2.56%;
+right: 85.94%;
+top: 95%;
+
+
+
+}
+
+#btn_text{
+    position: absolute;
+left: 4.06%;
+
+top: 105%;
+bottom: 64.7%;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 60px;
+
+/* identical to box height, or 333% */
+
+color: #f30000;
+
+mix-blend-mode: normal;
+}
+
+#butt{
+    top:999px;
+    border-radius: 25%;
+    background-color: #458FF6;
+
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color:#FFFFFF
+}
+
+
+#sec2{
+    position: absolute;
+width: 952px;
+height: 146px;
+left: 25px;
+top: 1000px;
+
+}
+
+#para2{
+    
+    margin-top: 4%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+#rect2 {
+    margin-top: 2%;
+    position: absolute;
+width: 56px;
+height: 2px;
+left: 103px;
+top: 30px;
+
+background: #000000;
+border-radius: 5px;
+}
+
+
+/* button section 3  */
+
+.butts{
+    /* Rectangle 5 */
+
+    position: absolute;
+    width: 1120px;
+    height: 745px;
+    left: 25px;
+    top: 1205px;
+}
+
+#butt1{
+    position: absolute;
+width: 350px;
+height: 354px;
+left: 25px;
+top: 105px;
+
+background: #FFFFFF;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+}
+
+#butt2{
+    /* Rectangle 7 */
+
+position: absolute;
+width: 350px;
+height: 354px;
+left: 409px;
+top: 105px;
+
+background: #FFFFFF;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+}
+
+#butt3{
+    /* Rectangle 6 */
+
+position: absolute;
+width: 350px;
+height: 354px;
+left: 795px;
+top: 105px;
+
+background: #FFFFFF;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+}
+
+#butt4{
+    /* Rectangle 8 */
+
+position: absolute;
+width: 350px;
+height: 354px;
+left: 25px;
+top: 496px;
+
+background: #FFFFFF;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+}
+
+#butt5{
+    /* Rectangle 9 */
+
+position: absolute;
+width: 350px;
+height: 354px;
+left: 409px;
+top: 496px;
+
+background: #FFFFFF;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+}
+
+#butt6{
+    /* Rectangle 10 */
+
+position: absolute;
+width: 350px;
+height: 354px;
+left: 795px;
+top: 496px;
+
+background: #FFFFFF;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
 }
