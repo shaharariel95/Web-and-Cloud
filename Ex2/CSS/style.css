@@ -102,6 +102,8 @@ html {
 
     /* 1f1534-hyfen */
     color: #1F1534;
+
+    opacity: 0.5;
 }
 
 #home:hover {
