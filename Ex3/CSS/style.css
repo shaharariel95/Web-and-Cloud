@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header, main, footer, nav, aside, section, div {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html {
+    background-color: lightslategray;
+}
+
+a {
+    Text-decoration: none;
+}
+
+.wrapper {
+    margin: 0px auto;
+    width: 1000px;
+}
+
+header {
+    height: 388px;
+    width: 1000px;
+    background-color: dodgerblue;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#Diamond2 {
+    float: left;
+    width: 0;
+    height: 0;
+    left: 100px;
+    border: 25px solid transparent;
+    border-bottom: 50px solid orange;
+    position: relative;
+    top: 0px;
+    transform: rotate(90deg);
+}
+
+#Diamond2:after {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top: 50px solid orange;
+
+}
+
+#nav_p {
+    display: flex;
+    justify-content: right;
+
+    left: -50px;
+
+}
+
+.nav_ul {
+    margin-top: 45.3%;
+    display: flex;
+    background-color: brown;
+    width: 728px;
+    height: 58px;
+    margin: bottom;
+
+
+}
+
+
+.nav_li {
+    display: flex;
+    justify-content: center;
+    height: 58px;
+    width: 242.8px;
+}
+
+.h2_nav {
+    margin-top: 5%;
+}
+
+#li1 {
+    background-color: rgb(42, 165, 42);
+}
+
+#li2 {
+
+    background-color: rgb(130, 247, 130);
+}
+
+#li3 {
+    background-color: rgb(130, 247, 130);
+}
+
+main {
+    height: 491px;
+    width: 1000px;
+}
+
+#rect1 {
+
+    position: relative;
+    top: 24px;
+    left: 28px;
+    height: 33px;
+    width: 93px;
+    background-color: dodgerblue;
+}
+
+#rect2 {
+    position: relative;
+    top: 31px;
+    left: 178px;
+    height: 389px;
+    width: 335px;
+    background-color: dodgerblue;
+}
+
+#rect3 {
+    position: relative;
+    top: 31px;
+    left:200px ;
+    height: 338px;
+    width: 338px;
+    background-color: dodgerblue;
+}
+
+footer {
+    background-color: lightcoral;
+    height: 121px;
+    width: 1000px;
+}
