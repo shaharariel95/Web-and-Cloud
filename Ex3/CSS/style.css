@@ -317,3 +317,252 @@ footer {
     left: 106px;
     background-color: snow;
 }
+
+/* layout 3 ---------------------------------------------- */
+
+ .l3_wrapper
+ {
+    margin: 0px auto;
+    width: 1400px;
+    height: 1687px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+    @media only screen and (max-width: 500px)
+     {
+        .l3_wrapper{
+            height: 1121px;
+            width:100%;
+            margin: 0 auto;
+            background-color: green;
+         }
+         .l3_wrapper header{
+            width: 100%;
+            height: 438px;
+            background-color: darkgrey;
+         }
+         #Diamond2 {
+            float: left;
+            width: 0;
+            height: 0;
+            left: 50%;
+            border: 25.2px solid transparent;
+            border-bottom: 50.2px solid orange;
+            position: relative;
+            top: 15px;
+            transform: rotate(90deg);
+        }
+        
+        #Diamond2:after {
+            content: '';
+            position: absolute;
+            left: -25px;
+            top: 50px;
+            width: 0;
+            height: 0;
+            border: 25.2px solid transparent;
+            border-top: 50.2px solid orange;
+        }
+        #plus{
+            position:relative;
+            display: flex;
+            top:42%;
+            left:28.8%;
+            width: 86px;
+            height: 14px;
+           background-color: whitesmoke;
+        }
+        #plus:after{ 
+            content: '';
+           position:relative;
+           transform: rotate(90deg);  
+           width: 86px;
+           height: 14px;      
+          background-color: whitesmoke;
+          
+
+        }
+        .l3_wrapper nav{
+            position: relative;
+            top:68.9%;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: lightcoral;
+            height: 62px;
+            width: 500px;
+
+        }
+        .l3_wrapper ul{
+            display: flex;
+            flex-wrap: wrap;
+            height: 62px;
+            width: 500px;
+        }
+        .l3_wrapper li{
+            display: flex;
+            flex-wrap: wrap;
+            width: 33.3333333334%;
+            height: 62px;
+        }
+        .l3_wrapper li:hover{
+            background-color: pink;
+            color:black;
+        }
+
+         .l3_wrapper li:hover h2{
+             background-color: pink;
+             color:black;
+         }
+         .l3_wrapper a{
+             height: 62px;
+             width:100%;
+         }
+         .l3_wrapper h2{
+             position: relative;
+             text-align: center;
+             top: 15px;
+             color:darkgrey;
+         }
+         #l3_li3{
+             background-color: crimson;
+         }
+         #l3_li3:hover{
+             background-color: pink;
+         }
+     }
+    @media only screen and (min-width: 501px) and (max-width: 768px)
+     {
+        .l3_wrapper{
+            height: 800px;
+            width:760px;
+            margin: 0 auto;
+            background-color: purple;
+         }
+     }
+    @media only screen and (min-width: 769px)
+     {
+        .l3_wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            height: 1121px;
+            width:1000px;
+            margin: 0 auto;
+            background-color: red;
+         }
+         .l3_wrapper header{
+             height: 500px;
+             width: 500px;
+             background-color: rgb(68, 68, 68);
+         }
+         #plus{
+             position:relative;
+             display: flex;
+             top:42%;
+             left:150px;
+             width: 86px;
+             height: 14px;
+            background-color: whitesmoke;
+         }
+         #plus:after{ 
+             content: '';
+            position:relative;
+            transform: rotate(90deg);  
+            width: 86px;
+            height: 14px;      
+           background-color: whitesmoke;
+           
+
+         }
+         .l3_wrapper nav{
+            position: relative;
+            top:363.5px; 
+            display: flex;
+            flex-wrap: wrap;
+            background-color: lightcoral;
+            height: 62px;
+            width: 500px;
+         }
+         .l3_wrapper ul{
+             display: flex;
+             flex-wrap: wrap;
+             height: 62px;
+             width: 500px;
+         }
+         .l3_wrapper li{
+             display: flex;
+             flex-wrap: wrap;
+             width: 33.3333333334%;
+             height: 62px;
+         }
+         .l3_wrapper li:hover{
+            background-color: pink;
+            color:black;
+        }
+
+         .l3_wrapper li:hover h2{
+             background-color: pink;
+             color:black;
+         }
+         .l3_wrapper a{
+             height: 62px;
+             width:100%;
+         }
+         .l3_wrapper h2{
+             position: relative;
+             text-align: center;
+             top: 15px;
+             color:darkgrey;
+         }
+         #l3_li3{
+             background-color: crimson;
+         }
+         #l3_li3:hover{
+             background-color: pink;
+         }
+         .l3_wrapper aside{
+             display: flex;
+             flex-wrap: wrap;
+            height: 500px;
+            width: 500px;
+            background-color: purple;
+         }
+         .l3_wrapper aside div{
+            height:250px;
+            width: 250px;
+            background-color: white;
+         }
+        #sqr1{
+            opacity: 100%;
+        }
+        #sqr1:hover{
+            opacity: 0%;
+        }
+        #sqr2{
+            opacity: 75%;
+        } 
+        #sqr2:hover{
+            opacity: 0%;
+        }
+        #sqr3{
+            opacity: 50%;
+        }
+        #sqr3:hover{
+            opacity: 0%;
+        }
+        #sqr4{
+            opacity: 25%;
+        }
+        #sqr4:hover{
+            opacity: 0%;
+        }
+    
+        .l3_wrapper main{
+            display: flex;
+            flex-wrap: wrap;
+            width: 1000px;
+            height: 500px;
+            background-color: darkcyan;
+        }
+     }
+
+ 
