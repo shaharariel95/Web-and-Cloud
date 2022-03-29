@@ -101,14 +101,9 @@ header {
 
 .l1_wrapper li {
     background-color: rgb(42, 165, 42);
-    border: 1px;
-    border-color: black;
-    border-style: solid;
+   
 }
 
-.l1_wrapper li:hover{
-    background-color: darkcyan;
-}
 
 #li2 {
     background-color: rgb(130, 247, 130); 
@@ -118,6 +113,9 @@ header {
 }
 
 
+.l1_wrapper li:hover{
+    background-color: darkcyan;
+}
 #li2:hover{
     background-color: darkcyan;
 }
