@@ -394,6 +394,7 @@ footer {
         .l3_wrapper nav{
             position: relative;
             top:151px;
+            width: 100%;
             display: flex;
             flex-wrap: wrap;
             background-color: lightcoral;
@@ -443,7 +444,11 @@ footer {
             width: 50vw;
             background-color: white;
         }
-        
+        #squares{
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+        }
         #sqr1{
             opacity: 100%;
             
@@ -564,7 +569,7 @@ footer {
              flex-wrap: wrap;
             height: 500px;
             width: 500px;
-            background-color: purple;
+            background-color: darkcyan;
          }
          .l3_wrapper aside div{
             height:250px;
