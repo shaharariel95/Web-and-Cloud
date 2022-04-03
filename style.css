@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#first{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 400px;
+    width:400px;
+}
+
+#second{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 400px;
+    width:400px;
+}
+
+#third{
+    background-color: green;
+    height: 200px;
+    width:200px;
+}

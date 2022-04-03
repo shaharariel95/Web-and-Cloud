@@ -331,12 +331,23 @@ footer {
     @media only screen and (max-width: 500px)
      {
         .l3_wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             height: 1121px;
             width:100%;
             margin: 0 auto;
             background-color: green;
          }
+         .l3_wrapper main{
+             display: flex;
+             flex-wrap: wrap;
+             background-color: darkcyan;
+         }
          .l3_wrapper header{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             width: 100%;
             height: 438px;
             background-color: darkgrey;
@@ -345,7 +356,7 @@ footer {
             float: left;
             width: 0;
             height: 0;
-            left: 50%;
+          
             border: 25.2px solid transparent;
             border-bottom: 50.2px solid orange;
             position: relative;
@@ -366,8 +377,8 @@ footer {
         #plus{
             position:relative;
             display: flex;
-            top:42%;
-            left:28.8%;
+            top:45%; 
+            left:-15px;
             width: 86px;
             height: 14px;
            background-color: whitesmoke;
@@ -379,24 +390,22 @@ footer {
            width: 86px;
            height: 14px;      
           background-color: whitesmoke;
-          
-
         }
         .l3_wrapper nav{
             position: relative;
-            top:68.9%;
+            top:151px;
             display: flex;
             flex-wrap: wrap;
             background-color: lightcoral;
             height: 62px;
-            width: 500px;
+            
 
         }
         .l3_wrapper ul{
             display: flex;
             flex-wrap: wrap;
             height: 62px;
-            width: 500px;
+            width: 100vw;
         }
         .l3_wrapper li{
             display: flex;
@@ -429,15 +438,46 @@ footer {
          #l3_li3:hover{
              background-color: pink;
          }
+         .l3_wrapper main div{
+            height: 50vw;
+            width: 50vw;
+            background-color: white;
+        }
+        
+        #sqr1{
+            opacity: 100%;
+            
+        }
+        #sqr1:hover{
+            opacity: 0%;
+        }
+        #sqr2{
+            opacity: 75%;
+        } 
+        #sqr2:hover{
+            opacity: 0%;
+        }
+        #sqr3{
+            opacity: 50%;
+        }
+        #sqr3:hover{
+            opacity: 0%;
+        }
+        #sqr4{
+            opacity: 25%;
+        }
+        #sqr4:hover{
+            opacity: 0%;
+        }
      }
     @media only screen and (min-width: 501px) and (max-width: 768px)
      {
-        .l3_wrapper{
+        /* .l3_wrapper{
             height: 800px;
             width:760px;
             margin: 0 auto;
             background-color: purple;
-         }
+         } */
      }
     @media only screen and (min-width: 769px)
      {
@@ -531,6 +571,21 @@ footer {
             width: 250px;
             background-color: white;
          }
+         #squares1{
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #squares2{
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+         .l3_wrapper main div{
+             height: 250px;
+             width: 250px;
+             background-color: white;
+         }
         #sqr1{
             opacity: 100%;
         }
@@ -560,7 +615,6 @@ footer {
             display: flex;
             flex-wrap: wrap;
             width: 1000px;
-            height: 500px;
             background-color: darkcyan;
         }
      }
