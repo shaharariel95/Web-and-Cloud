@@ -328,7 +328,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
  }
-    @media only screen and (max-width: 500px)
+    @media only screen and (max-width: 768px)
      {
         .l3_wrapper{
             display: flex;
@@ -475,15 +475,6 @@ footer {
             opacity: 0%;
         }
      }
-    @media only screen and (min-width: 501px) and (max-width: 768px)
-     {
-        /* .l3_wrapper{
-            height: 800px;
-            width:760px;
-            margin: 0 auto;
-            background-color: purple;
-         } */
-     }
     @media only screen and (min-width: 769px)
      {
         .l3_wrapper{
@@ -616,9 +607,9 @@ footer {
             opacity: 0%;
         }
         #this_sqr{
-            border-color: black;
-            border-width: 2px;
-            border-style: none;
+            background-color: white;
+
+            
         }
     
         .l3_wrapper main{
