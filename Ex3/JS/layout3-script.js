@@ -10,24 +10,24 @@ $(document).ready(() => {
         s.appendChild(sec1);
         s.appendChild(sec2);
 
-            let square1 = document.createElement("div");
-            square1.className = 'sqr1'
-            sec1.appendChild(square1);
+        let square1 = document.createElement("div");
+        square1.className = 'sqr1'
+        sec1.appendChild(square1);
 
-            let square2 = document.createElement("div");
-            square2.className = 'sqr2';
-            sec1.appendChild(square2);
+        let square2 = document.createElement("div");
+        square2.className = 'sqr2';
+        sec1.appendChild(square2);
 
-            let square3 = document.createElement("div");
-            square3.className = 'sqr3';
-            sec1.appendChild(square3);
+        let square3 = document.createElement("div");
+        square3.className = 'sqr3';
+        sec1.appendChild(square3);
 
-            let square4 = document.createElement("div");
-            square4.className = 'sqr4';
-            square4.id = 'this_sqr';
-            sec1.appendChild(square4);
-        
-        for (i = 0; i < j-1; i++) {
+        let square4 = document.createElement("div");
+        square4.className = 'sqr4';
+        square4.id = 'this_sqr';
+        sec1.appendChild(square4);
+
+        for (i = 0; i < j - 1; i++) {
             let square1 = document.createElement("div");
             square1.className = 'sqr1'
             sec1.appendChild(square1);
@@ -61,25 +61,25 @@ $(document).ready(() => {
             square4.className = 'sqr4';
             sec2.appendChild(square4);
         }
-        
+
     }
     else {
         let square1 = document.createElement("div");
-            square1.className = 'sqr1'
-            s.appendChild(square1);
+        square1.className = 'sqr1'
+        s.appendChild(square1);
 
-            let square2 = document.createElement("div");
-            square2.className = 'sqr2';
-            s.appendChild(square2);
+        let square2 = document.createElement("div");
+        square2.className = 'sqr2';
+        s.appendChild(square2);
 
-            let square3 = document.createElement("div");
-            square3.className = 'sqr3';
-            s.appendChild(square3);
+        let square3 = document.createElement("div");
+        square3.className = 'sqr3';
+        s.appendChild(square3);
 
-            let square4 = document.createElement("div");
-            square4.className = 'sqr4';
-            square4.id = 'this_sqr';
-            s.appendChild(square4);
+        let square4 = document.createElement("div");
+        square4.className = 'sqr4';
+        square4.id = 'this_sqr';
+        s.appendChild(square4);
 
         for (i = 0; i < j; i++) {
             let square1 = document.createElement("div");
@@ -99,10 +99,23 @@ $(document).ready(() => {
             s.appendChild(square4);
         }
     }
-    pls.on('click',()=>{
+    $(pls).on('click',function(){
         let sq = document.getElementById('this_sqr');
-        if(sq.style.borderStyle == 'none')
-        sq.style.borderStyle = ''
+        if (sq.style.borderStyle == 'none') {
+            sq.style.borderStyle = 'dotted';
+        }
+
+        if (sq.style.borderStyle == 'dotted') {
+            sq.style.borderStyle = 'double';
+        }
+        if (sq.style.borderStyle == 'double') {
+            sq.style.borderStyle = 'solid';
+        }
+        if (sq.style.borderStyle == 'solid') {
+            sq.style.borderStyle = 'none';
+        }
+        console.log(sq);
     });
+
 }
 );

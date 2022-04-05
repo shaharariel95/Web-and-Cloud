@@ -615,6 +615,11 @@ footer {
         .sqr4:hover{
             opacity: 0%;
         }
+        #this_sqr{
+            border-color: black;
+            border-width: 2px;
+            border-style: none;
+        }
     
         .l3_wrapper main{
             display: flex;
