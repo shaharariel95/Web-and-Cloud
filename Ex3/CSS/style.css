@@ -449,29 +449,29 @@ footer {
             display: flex;
             flex-wrap: wrap;
         }
-        #sqr1{
+        .sqr1{
             opacity: 100%;
             
         }
-        #sqr1:hover{
+        .sqr1:hover{
             opacity: 0%;
         }
-        #sqr2{
+        .sqr2{
             opacity: 75%;
         } 
-        #sqr2:hover{
+        .sqr2:hover{
             opacity: 0%;
         }
-        #sqr3{
+        .sqr3{
             opacity: 50%;
         }
-        #sqr3:hover{
+        .sqr3:hover{
             opacity: 0%;
         }
-        #sqr4{
+        .sqr4{
             opacity: 25%;
         }
-        #sqr4:hover{
+        .sqr4:hover{
             opacity: 0%;
         }
      }
@@ -591,28 +591,28 @@ footer {
              width: 250px;
              background-color: white;
          }
-        #sqr1{
+        .sqr1{
             opacity: 100%;
         }
-        #sqr1:hover{
+        .sqr1:hover{
             opacity: 0%;
         }
-        #sqr2{
+        .sqr2{
             opacity: 75%;
         } 
-        #sqr2:hover{
+        .sqr2:hover{
             opacity: 0%;
         }
-        #sqr3{
+        .sqr3{
             opacity: 50%;
         }
-        #sqr3:hover{
+        .sqr3:hover{
             opacity: 0%;
         }
-        #sqr4{
+        .sqr4{
             opacity: 25%;
         }
-        #sqr4:hover{
+        .sqr4:hover{
             opacity: 0%;
         }
     
