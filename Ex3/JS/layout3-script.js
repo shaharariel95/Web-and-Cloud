@@ -121,7 +121,6 @@ $(document).ready(() => {
     }
     $(pls).on("click", function () {
         let sq = document.getElementById('this_sqr');
-        console.log(sq.style.backgroundColor);
         if (sq.style.opacity == 0) {
              sq.style.opacity = 0.25;
         }
