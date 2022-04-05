@@ -454,25 +454,25 @@ footer {
             
         }
         .sqr1:hover{
-            opacity: 0%;
+            opacity: 100%;
         }
         .sqr2{
             opacity: 75%;
         } 
         .sqr2:hover{
-            opacity: 0%;
+            opacity: 100%;
         }
         .sqr3{
             opacity: 50%;
         }
         .sqr3:hover{
-            opacity: 0%;
+            opacity: 100%;
         }
         .sqr4{
             opacity: 25%;
         }
         .sqr4:hover{
-            opacity: 0%;
+            opacity: 100%;
         }
      }
     @media only screen and (min-width: 769px)
@@ -586,25 +586,25 @@ footer {
             opacity: 100%;
         }
         .sqr1:hover{
-            opacity: 0%;
+            opacity: 100%;
         }
         .sqr2{
             opacity: 75%;
         } 
         .sqr2:hover{
-            opacity: 0%;
+            opacity: 100%;
         }
         .sqr3{
             opacity: 50%;
         }
         .sqr3:hover{
-            opacity: 0%;
+            opacity: 100%;
         }
         .sqr4{
             opacity: 25%;
         }
         .sqr4:hover{
-            opacity: 0%;
+            opacity: 100%;
         }
         #this_sqr{
             background-color: white;

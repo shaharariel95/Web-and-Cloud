@@ -122,39 +122,39 @@ $(document).ready(() => {
     $(pls).on("click", function () {
         let sq = document.getElementById('this_sqr');
         console.log(sq.style.backgroundColor);
-        if (sq.style.backgroundColor == "") {
-             sq.style.backgroundColor = "darkgreen";
+        if (sq.style.opacity == 0) {
+             sq.style.opacity = 0.25;
         }
-        else if (sq.style.backgroundColor == "darkgreen") {
-            sq.style.backgroundColor = "red";
+        else if (sq.style.opacity == 0.25) {
+            sq.style.opacity = 0.5;
         }
-        else if (sq.style.backgroundColor == "red") {
-            sq.style.backgroundColor = "black";
+        else if (sq.style.opacity == 0.5) {
+            sq.style.opacity = 0.75;
         }
-        else if (sq.style.backgroundColor == "black") {
-            sq.style.backgroundColor = "cyan";
+        else if (sq.style.opacity == 0.75) {
+            sq.style.opacity = 1;
         }
-        else if (sq.style.backgroundColor == "cyan") {
-            sq.style.backgroundColor = "";
+        else if (sq.style.opacity = 1) {
+            sq.style.opacity = 0;
         }
 
 
     });
     function opacityChange() {
-        if (this.style.opacity == 0) {
-            this.style.opacity = 0.25;
+        if (this.style.backgroundColor == "") {
+            this.style.backgroundColor = "red";
         }
-        else if (this.style.opacity == 0.25) {
-            this.style.opacity = 0.5;
+        else if (this.style.backgroundColor == "red") {
+            this.style.backgroundColor = "brown";
         }
-        else if (this.style.opacity == 0.5) {
-            this.style.opacity = 0.75;
+        else if (this.style.backgroundColor == "brown") {
+            this.style.backgroundColor = "purple";
         }
-        else if (this.style.opacity == 0.75) {
-            this.style.opacity = 1;
+        else if (this.style.backgroundColor == "purple") {
+            this.style.backgroundColor = "yellow";
         }
-        else if (this.style.opacity == 1) {
-            this.style.opacity = 0;
+        else if (this.style.backgroundColor == "yellow") {
+            this.style.backgroundColor = "";
         }
 
     }
