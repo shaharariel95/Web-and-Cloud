@@ -16,11 +16,11 @@
         <h1>Form2: </h1>
     </header><br>
     <main>
-        <form class="container col-5">
+        <form class="container col-5" action="Welcome.php">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="col-6" class="form-control" id="exampleInputEmail1"
-                    aria-describedby="emailHelp">
+                    aria-describedby="emailHelp" name="mail">
                 <div id="emailHelp" class="form-text">Example@stu.shenkar.ac.il</div>
             </div>
             <div class="row g-3 align-items-center , mb-3">
@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-auto">
                     <input type="password" id="inputPassword6" class="form-control"
-                        aria-describedby="passwordHelpInline">
+                        aria-describedby="passwordHelpInline" name="pass">
                 </div>
                 <div class="col-auto">
                     <span id="passwordHelpInline" class="form-text">
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="mb-3, col-5">
-                <select class="form-select" aria-label="Default select example">
+                <select name="select" class="form-select" aria-label="Default select example">
                     <option value="1">Mac</option>
                     <option value="2">Windows</option>
                     <option value="3">Linux</option>
@@ -51,9 +51,9 @@
             <div class="mb-3">
                 <div class="input-group">
                     <span class="input-group-text">Favorite 3 animals:</span>
-                    <input type="text" aria-label="animalOne" class="form-control">
-                    <input type="text" aria-label="animalTwo" class="form-control">
-                    <input type="text" aria-label="animalthree" class="form-control">
+                    <input name="ani1" type="text" aria-label="animalOne" class="form-control">
+                    <input type="ani2" aria-label="animalTwo" class="form-control">
+                    <input type="ani3" aria-label="animalthree" class="form-control">
                   </div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>

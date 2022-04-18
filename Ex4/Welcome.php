@@ -3,17 +3,13 @@
 
 <body>
 
-    Welcome <?php echo $_GET["fullName"]; ?><br>
+    Your Email address: <?php echo $_GET["mail"]; ?><br>
     Password: <?php echo $_GET["pass"]; ?><br>
-    Your email address is: <?php echo $_GET["mail"]; ?><br>
-    Your website address is: <?php echo $_GET["website"]; ?><br>
-    Your phone address is: <?php echo $_GET["phone"]; ?><br>
-    Your coffee address is: <?php echo $_GET["coffee"]; ?><br>
-    Your temper address is: <?php echo $_GET["temper"]; ?><br>
-    Your address is: <?php echo $_GET["address"]; ?><br>
-    Your interests address is: <?php echo $_GET["interests"]; ?><br>
-    Your age address is: <?php echo $_GET["age"]; ?><br>
-
+    you use mainly: <?php echo $_GET["select"]; ?><br>
+    Your favourite animals are: <?php echo $_GET["ani1"]; ?>
+    , <?php echo $_GET["ani2"]; ?> 
+    and <?php echo $_GET["ani3"]; ?>
+    
 </body>
 
 </html>
