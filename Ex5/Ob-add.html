@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="icon" href="favicon(1).ico">
+    <link rel="icon" href="favicon(1).ico">
 
 
     <title>Koren Halevie - ex4</title>
@@ -28,10 +28,10 @@
                 <a class="logo-link" href="index.html"><img src="images/TIG-logo.png" /></a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link " href="#">Report A Dirt</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" href="#">Report A Dirt</a>
                         <a class="nav-link" href="#">Start Cleaning</a>
-                        <a class="nav-link" href="#">Cleaning List</a>
+                        <a class="nav-link" href="./list-page.html">Cleaning List</a>
                     </div>
                 </div>
             </div>
@@ -55,48 +55,53 @@
     </header>
     <main class="main-divs">
         <section class="left-main-div">
-            
-                <form class="container " action="#">
-                    <div class="mb-3">
-                        <Button type="button" class="btn btn-primary"  onclick="getLocation()">Share location</Button>
-                        <Button type="button" class="btn btn-primary"  onclick="printLocation()">Print location</Button>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Type</label>
-                        <select >
-                            <option selected>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                      </div>
-                      <div class="mb-3">
-                        <input type="file" id="img" name="img" accept="image/*">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Spot description</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                </form>
-            
+
+            <form class="container " action="#">
+                <div class="mb-3">
+                    <Button type="button" class="btn btn-primary" onclick="getPosition()">Share location</Button>
+                </div>
+                <div class="mb-3 form_space">
+                    <label for="exampleFormControlInput1" class="form-label">Type</label>
+                    <select>
+                        <option selected>Open this select menu</option>
+                        <option value="1">Snack Bags</option>
+                        <option value="2">Dry</option>
+                        <option value="3">Wet</option>
+                        <option value="4">Bottles</option>
+                        <option value="5">Undefined</option>
+                    </select>
+                </div>
+                <div class="mb-3 form_space">
+                    <input type="file" id="img" name="img" accept="image/*">
+                </div>
+                <div class="mb-3 form_space">
+                    <label for="exampleFormControlTextarea1" class="form-label">Spot description</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <Button type="submit" id="obAddSubmit" class="btn btn-primary" onclick="showOb()">Finish</Button>
+                </div>
+            </form>
+
         </section>
 
         <div class="right-main-div">
-            
-            </section>
+            <div id="map" style="width: 480px; height: 480px; position: relative; overflow: hidden;margin: 10px auto;border-radius: 15px;" ></div>
         </div>
 
-        <section class="bottom-main-div"><p class="desc_p">Thanks for reporting and helping saving the country piece by piece</p> </section>
-        
+        <section class="bottom-main-div" id="thankUser">
+            <p class="desc_p">Thanks for reporting and helping save the country piece by piece</p>
+        </section>
+
     </main>
     <footer>
         <!-- <img id="footer-img" src="images/trees.png"> -->
         <div class="footer-icons">
             <div></div>
             <p>© 2022 Shahar Ariel & Koren Halevie. All rights reserved</p>
-            <img class="footers-logo" src="images/linkedin-logo.png" />
-            <img class="footers-logo" src="images/facebook-logo.png" />
-            <img class="footers-logo" src="images/instagram-logo.png" />
+            <a href="#"><img class="footers-logo" src="images/linkedin-logo.png" /></a>
+            <a href="#"><img class="footers-logo" src="images/facebook-logo.png" /></a>
+            <a href="#"><img class="footers-logo" src="images/instagram-logo.png" /></a>
         </div>
 
     </footer>
@@ -111,6 +116,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoQi_3yRacIm2CKsM0KQuc2NT2wBvhRrU&callback=mapReady"></script>
 </body>
 
 </html>
