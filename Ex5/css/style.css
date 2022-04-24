@@ -33,7 +33,7 @@ body {
 #top-nav {
     position: relative;
     top: 20px;
-    width: 70%;
+    width: 1200px;
     height: 100px;
     border-radius: 20px;
     background-color: #def8db !important;
@@ -63,6 +63,14 @@ body {
     margin-right: 30px;
 }
 
+#footerLinkdn{
+    position: relative;
+    display: block;
+    height: 15px;
+    width: 15px;
+    background-image: url(../images/linkedin-logo.png);
+}
+
 .footer-icons p {
     position: absolute;
     display: flex;
@@ -70,10 +78,16 @@ body {
     top: 12px;
 }
 
-footer {
-    margin-top: 30px;
+.footer-icons a{
     position: relative;
-    width: 100%;
+    height: 100%;
+    top:8px;
+}
+
+footer {
+    position: relative;
+    margin: 30px auto;
+    width: 1700px;
     top: 60%;
 }
 
@@ -220,110 +234,109 @@ main {
     width: 70px;
 }
 
+
 /*       Ob-main       */
 
 
 /* ************************************************************************* */
 
-
-.left-main-div section{
+.left-main-div section {
     position: relative;
     display: flex;
     flex-wrap: nowrap;
     height: 43px;
     width: 476px;
-    left:1%;
+    left: 1%;
     background-color: #9dcf94;
     margin: 6px;
     border-radius: 6px;
 }
 
-.main_h{
+.main_h {
     position: relative;
-    left:10px;
+    left: 10px;
 }
 
-.p{
+.p {
     position: relative;
     line-height: 38px;
-    left:10px;
-    color:white;
+    left: 10px;
+    color: white;
     font-size: 25px;
     justify-content: center;
 }
 
-#buttonType{
+#buttonType {
     position: absolute;
-    background-color: #7EC796;
-    vertical-align:middle;
-    color:#11A797;
+    background-color: #7ec796;
+    vertical-align: middle;
+    color: #11a797;
     line-height: 5px;
-    top:5px;
+    top: 5px;
     right: 20px;
-    font-size:20px;
+    font-size: 20px;
     height: 75%;
     width: 126px;
 }
 
-#spotD{
+#spotD {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     height: 150px;
     width: 476px;
-    left:1%;
+    left: 1%;
     background-color: #9dcf94;
     margin: 6px;
     border-radius: 6px;
 }
 
-#desc_text{
+#desc_text {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    top:-15px;
-    left:15px;
+    top: -15px;
+    left: 15px;
     height: 100px;
     width: 430px;
     background-color: #ffffff;
     border-radius: 6px;
 }
 
-.desc_p{
+.desc_p {
     position: relative;
-    left:10px;
+    left: 10px;
     font-size: 25px;
     justify-content: center;
 }
 
-.locIcon{
-    position:relative;
-    left:16%;
+.locIcon {
+    position: relative;
+    left: 16%;
 }
 
-#b_sub{
+#b_sub {
     position: relative;
     background-color: #ffffff;
-    vertical-align:middle;
-    color:#11A797;
+    vertical-align: middle;
+    color: #11a797;
     line-height: 5px;
-    top:5px;
-    font-size:20px;
-    left:160px;
+    top: 5px;
+    font-size: 20px;
+    left: 160px;
     height: 40px;
     width: 160px;
     font-weight: 650;
 }
 
-#map{
+.map {
     position: relative;
     border-radius: 8px;
-    left:12px;
-    top:10px;
-
+    left: 12px;
+    top: 10px;
 }
 
-.bottom-main-div{
+.bottom-main-div {
     position: relative;
     display: flex;
     align-items: center;
@@ -336,31 +349,167 @@ main {
 }
 
 
-
 /*       Ob-add       */
 
 
 /* ************************************************************************* */
-.form-label{
-    font-size:25px;
+
+.form-label {
+    font-size: 25px;
 }
 
-#emailHelp{
+#emailHelp {
     font-size: 15px;
 }
 
-.mb-3 select{
+.form_space{
+    position: relative;
+    margin-bottom:-1rem !important; /* bootstrap had !important so we had to use it here as well */
+}
+
+#obAddSubmit{
+    position: relative;
+    align-items: center;
+    background-color: #11a797;
+    font-size:20px;
+    top:15px;
+    left:190px;
+}
+
+#thankUser{
+    display: none;
+}
+
+.mb-3 select {
     width: 470px;
     height: 50px;
     font-size: 23px;
 }
 
-#img{
+#img {
     height: 50px;
     width: 470px;
     font-size: 23px;
 }
 
-.container{
+.container {
     line-height: 1;
 }
+
+
+/*       LP       */
+
+
+/* ****************************************************** */
+
+.list-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    align-items: center;
+    margin: 30px auto;
+    padding: 60px 30px;
+    background-color: #e0baa6;
+    border-radius: 20px;
+    color: black;
+}
+
+.list-item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 100px;
+    background-color: #a5766b;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.list-categories {
+    display: flex;
+    align-content: left;
+    margin-right: 50px;
+}
+
+.list-categories h3 {
+    font-weight: 100;
+    text-align: left;
+    color: rgb(254, 247, 247);
+    margin-right: 90px;
+    align-items: center;
+}
+
+.cleaning-icon {
+    height: 30px;
+}
+
+.link-icon {
+    height: 30px;
+}
+
+.categories-data p {
+    margin-right: 50px;
+}
+
+.cleaned-icon {
+    height: 30px;
+}
+
+.table {
+    margin: 50px auto;
+    width: 1200px;
+    display: table;
+    /* border-collapse: separate; */
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    text-align: center;
+    color: #f9f8eb;
+}
+
+.categories {
+    background-color: #558455 !important;
+}
+
+.table tr {
+    background-color: #66a35b;
+}
+
+.table-row:hover {
+    opacity: 0.25;
+}
+
+.table-striped {
+    background-color: #5b9b68;
+}
+
+#special-row {
+    height: 5px;
+    background-color: #558455 !important;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#special-row a {
+    margin: 15px;
+    height: 5px;
+    background-color: #558455 !important;
+    color: white;
+}
+
+.current-dirt {
+    text-align: left;
+    color: #761d0f;
+    font-weight: 500;
+    left: 80px;
+}
+
+#edit-btn{
+    cursor:pointer;
+}
+
