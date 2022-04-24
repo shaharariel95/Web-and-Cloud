@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="favicon(1).ico">
 
 
     <title>Koren Halevie - ex4</title>
@@ -28,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link " href="Ob-add.html">Report A Dirt</a>
+                        <a class="nav-link " href="#">Report A Dirt</a>
                         <a class="nav-link" href="#">Start Cleaning</a>
                         <a class="nav-link" href="#">Cleaning List</a>
                     </div>
@@ -54,38 +55,34 @@
     </header>
     <main class="main-divs">
         <section class="left-main-div">
-            <div class="inner-main-div">
-                <h2 class="main_h">Garbage report:</h2>
-                <section>
-                    <p class="p">Full Name: Jonny Depp</p>
-                </section>
-                <section>
-                    <p class="p">Location: HaNechim Beach</p><img class="locIcon" src="images/map-pin-icon.png">
-                </section>
-                <section>
-                    <p class="p">Type: </p><Button type="button" class="btn btn-primary" id="buttonType">Snack
-                        Bags</Button>
-                </section>
-                <section>
-                    <p class="p">Photo:</p><Button type="button" class="btn btn-primary" id="buttonType"
-                        onclick="window.open('images/trees.png')">Open</Button>
-                </section>
-                <section id="spotD">
-                    <p class="p">Spot description:</p>
-                    <section id="desc_text">
-                        <p class="desc_p">A spot under the tree near the bench over the bridge</p>
-                    </section>
-                </section>
-                <button type="button" class="btn btn-primary" id="b_sub">Edit</button>
-            </div>
+            
+                <form class="container " action="#">
+                    <div class="mb-3">
+                        <Button type="button" class="btn btn-primary"  onclick="getLocation()">Share location</Button>
+                        <Button type="button" class="btn btn-primary"  onclick="printLocation()">Print location</Button>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Type</label>
+                        <select >
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                      </div>
+                      <div class="mb-3">
+                        <input type="file" id="img" name="img" accept="image/*">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Spot description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                </form>
+            
         </section>
 
         <div class="right-main-div">
-            <section class="inner-main-div">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.67200681995!2d34.7963252815884!3d32.1655452089068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d48eab7dac8b9%3A0x4ca38c5d0a88b3b2!2sHandicap%20Beach!5e0!3m2!1sen!2sil!4v1650756979174!5m2!1sen!2sil"
-                    width="480" height="480" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+            
             </section>
         </div>
 
@@ -113,7 +110,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -334,3 +334,33 @@ main {
     height: 197px;
     background-color: #c3ebc6;
 }
+
+
+
+/*       Ob-add       */
+
+
+/* ************************************************************************* */
+.form-label{
+    font-size:25px;
+}
+
+#emailHelp{
+    font-size: 15px;
+}
+
+.mb-3 select{
+    width: 470px;
+    height: 50px;
+    font-size: 23px;
+}
+
+#img{
+    height: 50px;
+    width: 470px;
+    font-size: 23px;
+}
+
+.container{
+    line-height: 1;
+}
