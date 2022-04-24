@@ -1,12 +1,13 @@
 /*      GENERAL      */
 
 
-/* ***************** */
+/* ******************************************************************************** */
 
 * {
     margin: 0;
     padding: 0;
     text-decoration: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 header,
@@ -21,6 +22,10 @@ div {
 }
 
 body {
+    background-image: url(../images/trees.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
     background-color: #ebffe6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -29,10 +34,11 @@ body {
     position: relative;
     top: 20px;
     width: 70%;
-    left: 15%;
     height: 100px;
     border-radius: 20px;
     background-color: #def8db !important;
+    margin: 0px auto;
+    margin-bottom: 10px;
 }
 
 #top-nav img {
@@ -43,6 +49,7 @@ body {
 #navbarNavAltMarkup {
     position: relative;
     left: -120px;
+    justify-content: center;
 }
 
 .nav-link {
@@ -60,14 +67,14 @@ body {
     position: absolute;
     display: flex;
     left: 10px;
-    top: 15px;
+    top: 12px;
 }
 
 footer {
+    margin-top: 30px;
     position: relative;
     width: 100%;
     top: 60%;
-    margin-top: 50px;
 }
 
 .footer-icons {
@@ -90,6 +97,7 @@ footer {
     position: relative;
     border: none;
     box-shadow: 0px 0px 0px 0px;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .profile-pic {
@@ -105,32 +113,85 @@ footer {
     left: -30px;
 }
 
+main {
+    position: relative;
+}
+
+#footer-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 
 /*       INDEX       */
 
 
-/* ***************** */
+/* ************************************************************************* */
+
+.main-divs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    top: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 60px;
+}
 
 .left-main-div {
     position: relative;
-    display: inline-block;
-    width: 500px;
-    height: 900px;
-    background-color: #b6e4bc;
-    left: 15%;
-    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-start;
     border-radius: 15px;
-    margin-right: 25%;
+    width: 500px;
+    height: 500px;
+    background-color: #c3ebc6;
+}
+
+.display-4 {
+    margin-top: 20px;
+    text-align: center;
+    color: #26502c;
+}
+
+.inner-main-div h4 {
+    padding-right: 90px;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: 300;
+    color: #15421b;
+}
+
+.inner-p {
+    margin: 20px;
+    font-size: 20px;
+    position: relative;
+    font-weight: 300;
+    color: #202621;
 }
 
 .right-main-div {
-    display: inline-block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    border-radius: 15px;
     width: 500px;
     height: 500px;
-    background-color: #b6e4bc;
-    border-radius: 15px;
-    margin-left: 15px;
-    top: 0px;
+    background-color: #c3ebc6;
 }
 
 .pb-5 {
@@ -157,4 +218,119 @@ footer {
 .img-thumbnail {
     height: 70px;
     width: 70px;
+}
+
+/*       Ob-main       */
+
+
+/* ************************************************************************* */
+
+
+.left-main-div section{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 43px;
+    width: 476px;
+    left:1%;
+    background-color: #9dcf94;
+    margin: 6px;
+    border-radius: 6px;
+}
+
+.main_h{
+    position: relative;
+    left:10px;
+}
+
+.p{
+    position: relative;
+    line-height: 38px;
+    left:10px;
+    color:white;
+    font-size: 25px;
+    justify-content: center;
+}
+
+#buttonType{
+    position: absolute;
+    background-color: #7EC796;
+    vertical-align:middle;
+    color:#11A797;
+    line-height: 5px;
+    top:5px;
+    right: 20px;
+    font-size:20px;
+    height: 75%;
+    width: 126px;
+}
+
+#spotD{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 476px;
+    left:1%;
+    background-color: #9dcf94;
+    margin: 6px;
+    border-radius: 6px;
+}
+
+#desc_text{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top:-15px;
+    left:15px;
+    height: 100px;
+    width: 430px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.desc_p{
+    position: relative;
+    left:10px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.locIcon{
+    position:relative;
+    left:16%;
+}
+
+#b_sub{
+    position: relative;
+    background-color: #ffffff;
+    vertical-align:middle;
+    color:#11A797;
+    line-height: 5px;
+    top:5px;
+    font-size:20px;
+    left:160px;
+    height: 40px;
+    width: 160px;
+    font-weight: 650;
+}
+
+#map{
+    position: relative;
+    border-radius: 8px;
+    left:12px;
+    top:10px;
+
+}
+
+.bottom-main-div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 500px;
+    height: 197px;
+    background-color: #c3ebc6;
 }
