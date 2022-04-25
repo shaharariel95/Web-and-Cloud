@@ -87,7 +87,7 @@ body {
 footer {
     position: relative;
     margin: 30px auto;
-    width: 1700px;
+    width: 100%;
     top: 60%;
 }
 
@@ -147,11 +147,11 @@ main {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     top: 25px;
     align-items: center;
     justify-content: space-evenly;
-    margin: auto;
+    margin: 20px auto;
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.2;
@@ -167,9 +167,14 @@ main {
     align-content: space-between;
     justify-content: flex-start;
     border-radius: 15px;
-    width: 500px;
+    left:5%;
+    width: 28%;
     height: 500px;
     background-color: #c3ebc6;
+}
+
+.inner-main-div{
+    width: 95%;
 }
 
 .display-4 {
@@ -199,8 +204,9 @@ main {
     position: relative;
     left:75px;
     height:80px;
-    width: 300px;
+    width: 100%;
     font-size: 40px;
+    margin-bottom: 10%;
 }
 
 .startClean img{
@@ -225,7 +231,8 @@ main {
     align-content: space-between;
     justify-content: flex-start;
     border-radius: 15px;
-    width: 500px;
+    right:5%;
+    width: 28%;
     height: 500px;
     background-color: #c3ebc6;
 }
@@ -269,7 +276,7 @@ main {
     display: flex;
     flex-wrap: nowrap;
     height: 43px;
-    width: 476px;
+    width: 100%;
     left: 1%;
     background-color: #9dcf94;
     margin: 6px;
@@ -293,14 +300,13 @@ main {
 #buttonType {
     position: absolute;
     background-color: #7ec796;
-    vertical-align: middle;
     color: #11a797;
     line-height: 5px;
     top: 5px;
     right: 20px;
     font-size: 20px;
     height: 75%;
-    width: 126px;
+    width: 35%;
 }
 
 #spotD {
@@ -308,7 +314,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     height: 150px;
-    width: 476px;
+    width: 100%;
     left: 1%;
     background-color: #9dcf94;
     margin: 6px;
@@ -319,10 +325,11 @@ main {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     top: -15px;
-    left: 15px;
+    left: 8%;
     height: 100px;
-    width: 430px;
+    width: 80%;
     background-color: #ffffff;
     border-radius: 6px;
 }
@@ -345,9 +352,9 @@ main {
     vertical-align: middle;
     color: #11a797;
     line-height: 5px;
-    top: 5px;
+    top: -10px;
     font-size: 20px;
-    left: 160px;
+    left: 34%;
     height: 40px;
     width: 160px;
     font-weight: 650;
@@ -494,7 +501,7 @@ main {
 
 .table {
     margin: 50px auto;
-    width: 1200px;
+    width: 60%;
     display: table;
     /* border-collapse: separate; */
     box-sizing: border-box;
@@ -525,6 +532,7 @@ main {
     background-color: #558455 !important;
     text-align: right;
     margin-right: 20px;
+    width: 100%;
 }
 
 #special-row a {
@@ -545,3 +553,187 @@ main {
     cursor:pointer;
 }
 
+
+
+/* Haburger */
+
+
+/* ********************************************************/
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+.menu__btn {
+    visibility: hidden;
+    display: none;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: 0.25s;
+}
+
+.menu__btn>span::before {
+    content: "";
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: "";
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #eceff1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.25s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+
+.menu__item:hover {
+    background-color: #cfd8dc;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu__btn {
+        visibility: visible;
+    }
+    
+    #top-nav {
+        /* display: none; */
+        /* visibility: hidden; */
+         width: 60%;
+      }
+    #top-nav img{
+        display: flex;
+        justify-content: center;
+        top:28%;
+    }
+    #logo-link {
+        visibility: initial;
+    }
+}
+
+
+/********************************************************/
+
+@media only screen and (max-width: 1000px) {
+    .hamburger-menu{
+        position: fixed;
+        z-index: 99;
+    }
+    
+    .main-divs{
+        width: 90%;
+    }
+    
+    .menu__btn {
+        visibility: visible;
+        display: flex;
+    }
+    #top-nav {
+        /* display: none; */
+        /* visibility: hidden; */
+        width: 80%;
+    }
+
+    .logo-link{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: -35px;  
+    }
+    .profile-section{
+        display: none;
+    }
+
+    .main-divs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left:-5%;
+    }
+
+    .left-main-div{
+        width: 80%;
+        height: 100%;
+    }
+    #spotD{
+        width: 100%;
+    }
+
+    .right-main-div{
+        display: none;
+    }
+    .collapse{
+        visibility: hidden;
+    }
+    #logo-link {
+        visibility: initial;
+    }
+    #thankUser{
+        left:5%;
+    }
+
+    .pb-5 {
+        display: none;
+    }
+    .footer-icons{
+        display:flex ;
+        justify-content: center;
+    }
+}
