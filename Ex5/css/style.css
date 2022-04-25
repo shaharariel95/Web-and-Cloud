@@ -199,7 +199,7 @@ main {
 
 .inner-p {
     margin: 20px;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
     font-weight: 300;
     color: #202621;
@@ -207,14 +207,12 @@ main {
 
 
 .startClean{
-    top:5%;
     position: relative;
     display: flex;
     justify-content: center;
     height:80px;
     width: 100%;
     font-size: 40px;
-    margin-bottom: 10%;
 }
 
 .startClean img{
@@ -377,6 +375,11 @@ main {
     
 }
 
+#map{
+    height: 95%;
+    width: 95%;
+}
+
 .bottom-main-div {
     position: relative;
     display: flex;
@@ -384,7 +387,7 @@ main {
     flex-wrap: wrap;
     margin-top: 30px;
     border-radius: 15px;
-    width: 500px;
+    width: 60%;
     height: 197px;
     background-color: #c3ebc6;
 }
