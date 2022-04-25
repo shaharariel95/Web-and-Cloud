@@ -7,16 +7,19 @@ $(document).ready(function () {
     });
 });
 
+let latitude;
+let longitude;
+
 
 function initMap(lat,lng) {
-    var elMap = document.querySelector('#map')
+    let elMap = document.querySelector('#map')
     
-    var options = {
+    let options = {
         center: { lat:lat , lng:lng },
         zoom: 14,
     }
 
-    var map = new google.maps.Map(elMap, options)
+    let map = new google.maps.Map(elMap, options)
     return new google.maps.Marker({
         position: { lat, lng },
         map,
@@ -43,7 +46,7 @@ function getPosition() {
   }
   
   function handleLocationError(error) {
-    var locationError = document.getElementById('locationError')
+    let locationError = document.getElementById('locationError')
   
     switch (error.code) {
       case 0:
@@ -67,38 +70,28 @@ function getPosition() {
 
 function showOb() {
     let x = document.getElementById("thankUser");
-    console.log(x);
-    if (x.style.display === "block") {
+    if (x.style.display === "flex") {
         // x.style.display = "none";
     } else {
-        x.style.display = "block";
+        x.style.display = "flex";
     }
 }
 
-// jQuery(document).ready(function ($) {
-//     $(".clickable-row").click(function () {
-//         window.location = $(this).data("href");
-//     });
-// });
 
-// document.getElementById("edit-btn").onclick = function () {
-//     alert("click on a row to edit");
-// };
 
-// $(document).ready(function () {
-//     $(".cleaned-icon").click(function () {
-//         // Change src attribute of image
-//         if ($(this).attr("src") == "images/cleaned.png") {
-//             $(this).attr("src", "images/not-cleaned.png");
-//         } else $(this).attr("src", "images/cleaned.png");
-//     });
-// });
+document.getElementById("edit-btn").onclick = function () {
+    alert("click on a row to edit");
+};
 
-// $(document).ready(function() {
-//     $("table tr").click(function() {
-//         window.location = $(this).attr("href");
-//         return false;
-//     });
-// });
+$(document).ready(function () {
+    $(".cleaned-icon").click(function () {
+        // Change src attribute of image
+        if ($(this).attr("src") == "images/cleaned.png") {
+            $(this).attr("src", "images/not-cleaned.png");
+        } else $(this).attr("src", "images/cleaned.png");
+    });
+});
+
+
 
 
