@@ -1,0 +1,29 @@
+[18-Apr-2022 09:16:42 UTC] PHP Notice:  Undefined index: ani2 in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 10
+[18-Apr-2022 09:16:42 UTC] PHP Notice:  Undefined index: ani3 in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 11
+[18-Apr-2022 09:21:37 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:24:12 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:24:22 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:26:05 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:26:09 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:27:04 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:29:00 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 14
+[18-Apr-2022 09:29:47 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK), expecting ',' or ';' in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 14
+[18-Apr-2022 09:30:37 UTC] PHP Notice:  Undefined index: ani2 in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 10
+[18-Apr-2022 09:30:37 UTC] PHP Notice:  Undefined index: ani3 in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 11
+[18-Apr-2022 09:34:17 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 12
+[18-Apr-2022 09:34:22 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 12
+[18-Apr-2022 09:35:50 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 12
+[18-Apr-2022 09:36:32 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 12
+[18-Apr-2022 09:39:39 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:39:42 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:39:43 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:39:44 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:39:49 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:39:53 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:39:56 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:41:14 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:41:50 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:42:17 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:47:06 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:47:10 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13
+[18-Apr-2022 09:48:16 UTC] PHP Parse error:  syntax error, unexpected 'favourite' (T_STRING) in /home/zgk29jy57r32/public_html/students/2021-2022/web1/dev_22/exercises/ex4/Welcome.php on line 13

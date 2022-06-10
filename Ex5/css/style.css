@@ -62,6 +62,11 @@ body {
     height: 65%;
     margin-right: 30px;
 }
+.icons{  
+    display: flex;
+    position: relative;
+    height: 50px;
+}
 
 #footerLinkdn{
     position: relative;
@@ -76,6 +81,7 @@ body {
     display: flex;
     left: 10px;
     top: 12px;
+    font-size: 12px;
 }
 
 .footer-icons a{
@@ -193,7 +199,7 @@ main {
 
 .inner-p {
     margin: 20px;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
     font-weight: 300;
     color: #202621;
@@ -202,15 +208,15 @@ main {
 
 .startClean{
     position: relative;
-    left:75px;
+    display: flex;
+    justify-content: center;
     height:80px;
     width: 100%;
     font-size: 40px;
-    margin-bottom: 10%;
 }
 
 .startClean img{
-    position: absolute;
+    position: relative;
     top:-8px;
     height: 80px;
 
@@ -218,7 +224,7 @@ main {
 
 #reportDirt{
     
-    left:250px;
+    left:3%;
     top:-12px;
 }
 
@@ -306,7 +312,8 @@ main {
     right: 20px;
     font-size: 20px;
     height: 75%;
-    width: 35%;
+    width: 50%;
+    font-size: 15px;
 }
 
 #spotD {
@@ -343,7 +350,7 @@ main {
 
 .locIcon {
     position: relative;
-    left: 16%;
+    margin: 0 auto;
 }
 
 #b_sub {
@@ -365,6 +372,12 @@ main {
     border-radius: 8px;
     left: 12px;
     top: 10px;
+    
+}
+
+#map{
+    height: 95%;
+    width: 95%;
 }
 
 .bottom-main-div {
@@ -374,7 +387,7 @@ main {
     flex-wrap: wrap;
     margin-top: 30px;
     border-radius: 15px;
-    width: 500px;
+    width: 60%;
     height: 197px;
     background-color: #c3ebc6;
 }
@@ -404,8 +417,9 @@ main {
     align-items: center;
     background-color: #11a797;
     font-size:20px;
-    top:15px;
-    left:190px;
+    top:10px;
+    left:40%;
+    right:40%;
 }
 
 #thankUser{
@@ -415,12 +429,13 @@ main {
 .mb-3 Button{
     background-color: #11a797;
     position: relative;
-    left:165px;
+    left:40%;
+    right:40%;
 
 }
 
 .mb-3 select {
-    width: 470px;
+    width: 95%;
     height: 50px;
     font-size: 20px;
 }
@@ -692,10 +707,10 @@ main {
     }
 
     .logo-link{
-        position: relative;
+        position: absolute;
         display: flex;
         justify-content: center;
-        top: -35px;  
+        width: 100%;  
     }
     .profile-section{
         display: none;
@@ -717,14 +732,16 @@ main {
     }
 
     .right-main-div{
-        display: none;
+        display: flex;
+        width:80%;
+        height: 100%;
+        top:15px;
+        left:5%;
     }
     .collapse{
         visibility: hidden;
     }
-    #logo-link {
-        visibility: initial;
-    }
+
     #thankUser{
         left:5%;
     }
@@ -735,5 +752,19 @@ main {
     .footer-icons{
         display:flex ;
         justify-content: center;
+        
+    }
+    .icons{  
+        display: flex;
+        position: relative;
+        height: 35px;
+        margin-left: 70%;
+        top:-12%;
+                }
+    .footers-logo{
+        margin-right:10px ;
+    }
+    .footer-icons p{
+        top:15px;
     }
 }
