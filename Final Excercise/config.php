@@ -1,6 +1,2 @@
 <?php
-    $dbhost = "148.66.138.145";
-    $dbuser = "dbusrShnkr22";
-    $dbpass = "studDBpwWeb1!";
-    $dbname = "dbShnkr22studWeb1";
-?>
+define("URL","https://se.shenkar.ac.il/students/2021-2022/web1/dev_215/");
