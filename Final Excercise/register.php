@@ -24,6 +24,7 @@ if (isset($_POST['submit'])) {
         $query  = "INSERT INTO tbl_users_215 (`name`, `email`, `password`) VALUES ('$name', '$email', '$password')";
 
         if (mysqli_query($connection, $query)) {
+            header("Location: index.php");
         } else {
             echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
         }
@@ -102,7 +103,7 @@ mysqli_close($connection);
                                 <div id="reg-logo"
                                     class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
                                     <a class="logo-link" href="/index.php">
-                                        <img src="/images/TIG-logo.png" class="img-fluid" alt="Sample image">
+                                        <img src="images/TIG-logo.png" class="img-fluid" alt="Sample image">
                                     </a>
                                 </div>
                             </div>

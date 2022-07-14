@@ -52,8 +52,8 @@
 
                     <ul class="menu__box">
                         <li><a class="menu__item" href="#">Home</a></li>
-                        <li><a class="menu__item" href="rpt_pg.php">Report a Dirt</a></li>
-                        <li><a class="menu__item" href="dirt_list.php">Start Clean</a></li>
+                        <li><a class="menu__item" href="rpt_pg.php">Report a dirt</a></li>
+                        <li><a class="menu__item" href="dirt_list.php">Start clean</a></li>
                         <li><a class="menu__item" href="dirt_list.php">Dirt list</a></li>
                     </ul>
                 </div>

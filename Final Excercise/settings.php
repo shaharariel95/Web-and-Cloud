@@ -38,6 +38,7 @@
     if($newEmail == null){
         $newEmail = $_SESSION["email"];
     }
+    
     $query = "UPDATE tbl_users_215 SET `name` = '$newName', `email` = '$newEmail', `password` = '$password' WHERE (`user_id` = '$user_id')";
 
     if (mysqli_query($connection, $query)) { 
@@ -96,13 +97,15 @@
 
                     <ul class="menu__box">
                         <li><a class="menu__item" href="main.php">Home</a></li>
-                        <li><a class="menu__item" href="rpt_pg.php">Report a Dirt</a></li>
-                        <li><a class="menu__item" href="#">start Clean</a></li>
+                        <li><a class="menu__item" href="rpt_pg.php">Report a dirt</a></li>
+                        <li><a class="menu__item" href="#">start clean</a></li>
                         <li><a class="menu__item" href="dirt_list.php">Dirt list</a></li>
                     </ul>
                 </div>
             </div>
-            <a href="/main.php"><div class="header-logo"></div></a>
+            <a href="/main.php">
+                <div class="header-logo"></div>
+            </a>
 
             <!-- NAVIGATION MENUS -->
 
@@ -191,9 +194,12 @@
             <div class="footer-icons">
                 <div>© 2022 Shahar Ariel & Koren Halevie. All rights reserved</div>
                 <div class="icons">
-                    <a href="https://www.linkedin.com/groups/12685438/"><img class="footers-logo" src="images/linkedin-logo.png" alt="" /></a>
-                    <a href="https://www.facebook.com/Track-it-Green-108974095213560/"><img class="footers-logo" src="images/facebook-logo.png" alt="" /></a>
-                    <a href="https://www.instagram.com/trackitgreen/"><img class="footers-logo" src="images/instagram-logo.png" alt="" /></a>
+                    <a href="https://www.linkedin.com/groups/12685438/"><img class="footers-logo"
+                            src="images/linkedin-logo.png" alt="" /></a>
+                    <a href="https://www.facebook.com/Track-it-Green-108974095213560/"><img class="footers-logo"
+                            src="images/facebook-logo.png" alt="" /></a>
+                    <a href="https://www.instagram.com/trackitgreen/"><img class="footers-logo"
+                            src="images/instagram-logo.png" alt="" /></a>
                 </div>
             </div>
         </footer>

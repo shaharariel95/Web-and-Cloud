@@ -112,6 +112,7 @@
 
 #dlist {
     background-image: url("../images/grbg.jpg");
+    background-size:cover ;
 }
 
 .main-img h2 {
@@ -476,8 +477,9 @@ hr {
     width: 70%;
     margin: 0 auto;
     margin-top: 30px;
-    text-align-last: center;
     color: rgb(0, 128, 128);
+    text-align-last: center;
+    justify-content: center;
 }
 
 .table {
@@ -857,9 +859,11 @@ hr {
     }
     .main-art#rpt {
         background-size: cover;
+        height: auto;
     }
     .main-art#cln {
         background-size: cover;
+        height: auto;
     }
     #rprt-clean-img {
         height: 65px;

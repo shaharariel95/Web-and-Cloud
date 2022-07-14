@@ -69,8 +69,8 @@ if (!isset($_SESSION['user_id'])) {
 
                     <ul class="menu__box">
                         <li><a class="menu__item" href="main.php">Home</a></li>
-                        <li><a class="menu__item" href="#">Report a Dirt</a></li>
-                        <li><a class="menu__item" href="dirt_list.php">Start Clean</a></li>
+                        <li><a class="menu__item" href="#">Report a dirt</a></li>
+                        <li><a class="menu__item" href="dirt_list.php">Start clean</a></li>
                         <li><a class="menu__item" href="dirt_list.php">Dirt list</a></li>
                     </ul>
                 </div>

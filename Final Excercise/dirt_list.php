@@ -46,8 +46,8 @@ if (!isset($_SESSION['user_id'])) {
 
                     <ul class="menu__box">
                         <li><a class="menu__item" href="main.php">Home</a></li>
-                        <li><a class="menu__item" href="rpt_pg.php">Report a Dirt</a></li>
-                        <li><a class="menu__item" href="#">start Clean</a></li>
+                        <li><a class="menu__item" href="rpt_pg.php">Report a dirt</a></li>
+                        <li><a class="menu__item" href="#">Start clean</a></li>
                         <li><a class="menu__item" href="#">Dirt list</a></li>
                     </ul>
                 </div>
